@@ -22,9 +22,12 @@ class Selector extends Component {
           <span> {this.state.selectedShape}</span>
           </div>
           <div className="shape-list">
-          <Shape shape="square" selectedShape={this.selectedShape}/>
-          <Shape shape="triangle" selectedShape={this.selectedShape}/>
-          <Shape shape="circle" selectedShape={this.selectedShape}/>
+
+              <Shape shape="square" selectShape={this.selectShape}/>
+              <Shape shape="circle" selectShape={this.selectShape}/>
+              <Shape shape="triangle" selectShape={this.selectShape}/>
+              <Shape shape="star" selectShape={this.selectShape} />
+              <Shape shape="oval" selectShape={this.selectShape}/>
           </div>
       </div>
     )

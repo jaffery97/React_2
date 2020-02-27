@@ -39,8 +39,9 @@ body {
 }
 
 .shape-list div {
-  margin-top: 40px;
+  margin: 20px;
   transition: all 1s ease;
+  display: grid;
 }
 
 .clicked {
